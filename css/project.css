@@ -1,0 +1,184 @@
+body{
+    height: 100vh;
+    margin: 0 ;}
+
+    .header{
+        
+        height: 30px;
+        padding: 10px;
+        margin: 0 50px 0 50px;
+        
+        
+    }.header span a{
+        color: #585656;
+        font-size: 30px;
+        float: left;
+        margin-right:10px;
+        text-decoration-line: none; 
+    }
+   .header ul {
+        list-style-type: none;
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    .header li{
+        float: left;
+        
+    }
+
+
+    .header ul li>a {
+        display: block;
+        padding: 8px;
+        color: #333;
+       text-decoration-line: none;
+       
+    }
+   .header ul li a:hover{
+       
+    text-decoration-line: underline;
+        
+        
+        
+    } 
+    .drop{
+        height:60%;
+        width: 120px;
+        border: 1px dashed #333;
+        float: right;
+        padding: 5px;
+        margin-right: 10px;
+        
+    }
+    .drop span{
+        text-decoration-line:underline ;
+        font-size: 18 px;
+        color: #333;
+        text-align: center;
+        
+    }
+    .log{
+        
+        float:right;
+    }
+    .log span a{font-size: 20px;}
+    .bodyCo{
+        margin: 0 50px 0 50px;
+        height: 320px;
+        background-image:linear-gradient(90deg,#333, #f3f3f3);
+        padding: 130px 0 0 50px;
+         
+    }
+    .bodyCo .d1{
+        width: 60px;
+        height: 25px;
+        padding-top: 8px;
+        background-color: #fabc10;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .bodyCo>.container>h2{
+        color:white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .bodyCo>.container>pre{color: white;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    .bodyCo .d2
+    {
+        width: 220px;
+        height: 30px;
+        padding-top: 10px;
+        background-color:white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .d2 a{
+        color:#333;
+        text-decoration-line: none;
+    }
+    .d2:hover{ background-color: #f3f3f3;}
+    .d2 a:hover{ text-decoration-line: underline;} 
+    .container1,.business
+    {margin: 0 50px 0 50px;
+    height:400px;}
+    .col
+    {
+        width: 24%;
+        margin:20px 0 10px 0;
+        padding: 5px;
+        float: left;
+
+    }
+    .col img{
+        width: 250px;
+    }
+    .col>h3{color: #333}
+    .col>a{
+        text-decoration-line: none;
+        color: #3b5998;
+        font-size: 20px;
+    }
+    .col>a:hover{
+        text-decoration-line: underline;
+        color: #3b5998;
+    }
+    .outlook{
+        margin: 0 50px 0 50px;
+        height: 300px;
+        padding: 130px 0 0 50px;
+        background-color: rgb(235, 232, 232);
+        color: #333
+
+    }.left{float: left;}
+    .left>.down{
+        width: 180px;
+        height: 30px;
+        background-color: black;
+        padding: 5px;
+        text-align: center;
+        margin-top: 10px;
+        float: left;
+        color: white;
+    }
+    .left>.down:hover{opacity: 0.9;}
+    .left>.down a{text-decoration-line: none;color: white;}
+    .left>.down a:hover{text-decoration-line: underline;}
+    .right{float: right}
+    .right img{
+        width:65%;
+        height: 100%;
+     
+    }
+    .business>h2{color: #333;}
+    .covid{height: 150px;
+    margin: 0 50px 0 50px;
+    background-color: rgb(235, 232, 232);
+    color: black;
+    text-align: center;
+    padding-top:50px; }
+    .covid>a{text-decoration-line: none;
+    color: #333;
+    font-size: 20px;}
+    .covid>a:hover{text-decoration-line: underline;}
+    .follow{margin: 0 50px 0 50px;}
+    .follow>p{color: #333}
+    .footer{
+        height: 300px;
+        padding:10px 10px 10px 20px ;
+        background-color: rgb(235, 232, 232);}
+    .footer >.ff{
+        width: 15%;
+        margin: 10px;
+        color: #726f6f;
+        float: left;
+    }
+    .footer >.ff>a{
+        text-decoration-line: none; 
+        color: #726f6f;
+        font-size: 12px;
+        display: block;
+        padding: 5px;}
+    .footer >.ff>a:hover{text-decoration-line: underline;}
